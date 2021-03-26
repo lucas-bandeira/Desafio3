@@ -36,8 +36,6 @@ function App() {
 
   return (
     <div>
-      <Header title="Repositories"/>
-
       <ul data-testid="repository-list">
         {repositories.map(repository => (
           <li key={repository.id}>
@@ -47,7 +45,6 @@ function App() {
             </button>
           </li> 
         ))}
-
       </ul>
 
       <button onClick={handleAddRepository}>
