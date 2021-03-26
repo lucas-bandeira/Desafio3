@@ -3,7 +3,6 @@ import api from './services/api';
 
 import "./styles.css";
 
-import Header from './components/Header';
 
 function App() {
   const [repositories, setRepositories ] = useState([]);
